@@ -13,31 +13,28 @@ type CampusInfo = {
 const campusData: CampusInfo[] = [
   {
     id: 'campus-principal',
-    name: 'Campus Principal',
-    description: 'Sede principal de UNEG, cuenta con laboratorios especializados en IA, blockchain y automatización, así como modernas aulas y espacios de colaboración.',
-    image: 'https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    name: 'Ciudad Universitaria',
+    description: 'La Universidad Nacional Experimental de Guayana es una institución pública de educación superior en Venezuela, cuyo objetivo principal es contribuir al desarrollo cultural, científico y tecnológico del país. ',
+    image: '/projectunegia/img/uneg.png',
     facilities: [
-      'Laboratorio de Inteligencia Artificial',
-      'Centro de Desarrollo Blockchain',
-      'Laboratorio de Robótica y Automatización',
-      'Biblioteca Digital',
-      'Auditorio Principal'
+      'CIENCIAS DE LA EDUCACIÓN',
+      'CIENCIAS DEL AGRO Y DEL MAR',
+      'CIENCIAS SOCIALES',
+      'INGENIERÍA, ARQUITECTURA Y TECNOLOGÍA',
     ],
     location: 'Edificio General de Seguros, Avenida Las Américas, Puerto Ordaz, Estado Bolívar - Venezuela'
   },
   {
-    id: 'campus-tecnologico',
-    name: 'Campus Tecnológico',
-    description: 'Enfocado en la investigación y desarrollo de tecnologías emergentes, con espacios de coworking y laboratorios de alta tecnología.',
+    id: 'Aula Virtual',
+    name: 'Aula Virtual',
+    description: 'Seminarios y cursos especializados en el desarrollo de cada area universitaria',
     image: 'https://images.pexels.com/photos/256490/pexels-photo-256490.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     facilities: [
-      'Centro de Innovación Tecnológica',
-      'Laboratorios de Computación Avanzada',
-      'Espacios de Coworking',
-      'Salas de Videoconferencia',
-      'Cafetería Tecnológica'
+      'Proyectos para el desarrollo universitario',
+      'Cursos y seminarios practicos',
+      'Enfocado a la metodologia agil de gestion de proyectos (SCRUM)'
     ],
-    location: 'Parque Tecnológico, Zona Industrial'
+    location: ''
   },
   {
     id: 'campus-virtual',
@@ -90,7 +87,7 @@ export const Campus = () => {
                 <span className="text-gray-600">{activeCampus.location}</span>
               </div>
               
-              <h4 className="text-lg font-semibold text-gray-800 mb-3">Instalaciones:</h4>
+              <h4 className="text-lg font-semibold text-gray-800 mb-3">Area de Conocimiento:</h4>
               <ul className="space-y-2 mb-8">
                 {activeCampus.facilities.map((facility, index) => (
                   <li key={index} className="flex items-center text-gray-700">
