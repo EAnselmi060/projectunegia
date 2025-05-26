@@ -14,7 +14,7 @@ const campusData: CampusInfo[] = [
   {
     id: 'campus-principal',
     name: 'Campus Principal',
-    description: 'Sede principal de UNEGIA, cuenta con laboratorios especializados en IA, blockchain y automatización, así como modernas aulas y espacios de colaboración.',
+    description: 'Sede principal de UNEG, cuenta con laboratorios especializados en IA, blockchain y automatización, así como modernas aulas y espacios de colaboración.',
     image: 'https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     facilities: [
       'Laboratorio de Inteligencia Artificial',
@@ -23,7 +23,7 @@ const campusData: CampusInfo[] = [
       'Biblioteca Digital',
       'Auditorio Principal'
     ],
-    location: 'Av. Universidad 1000, Ciudad Universitaria'
+    location: 'Edificio General de Seguros, Avenida Las Américas, Puerto Ordaz, Estado Bolívar - Venezuela'
   },
   {
     id: 'campus-tecnologico',

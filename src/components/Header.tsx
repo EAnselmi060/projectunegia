@@ -32,7 +32,7 @@ export const Header = () => {
               <div className={`h-8 w-px bg-white/30 mr-2 ${isScrolled ? 'block' : 'hidden md:block'}`}></div>
               <div className={`text-white/90 text-xs md:text-sm font-medium ${isScrolled ? 'block' : 'hidden md:block'}`}>
                 Universidad Nacional Experimental <br className="hidden md:block" />
-                de Gestión e Inteligencia Artificial
+                de Guayana e Inteligencia Artificial
               </div>
             </div>
           </div>

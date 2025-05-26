@@ -12,7 +12,7 @@ export const Footer = () => {
               <div className="h-8 w-px bg-blue-800 mr-2"></div>
               <div className="text-blue-300 text-xs font-medium leading-tight">
                 Universidad Nacional Experimental <br />
-                de Gestión e Inteligencia Artificial
+                de Guayana e Inteligencia Artificial
               </div>
             </div>
             
@@ -57,15 +57,19 @@ export const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin size={20} className="text-blue-400 flex-shrink-0 mt-1 mr-3" />
-                <span className="text-blue-200">Av. Universidad 1000, Ciudad Universitaria, CP 12345</span>
+                <span className="text-blue-200">Edificio General de Seguros, Avenida Las Américas, Puerto Ordaz, Estado Bolívar - Venezuela</span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="text-blue-400 flex-shrink-0 mr-3" />
-                <span className="text-blue-200">+123 456 7890</span>
+                <span className="text-blue-200">+58 (0286) 7137131</span>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="text-blue-400 flex-shrink-0 mr-3" />
-                <span className="text-blue-200">info@unegia.edu</span>
+                <span className="text-blue-200">caceuneg@gmail.com</span>
+              </li>
+                      <li className="flex items-center">
+                <Mail size={20} className="text-blue-400 flex-shrink-0 mr-3" />
+                <span className="text-blue-200">RIF: G-20003343-6</span>
               </li>
             </ul>
           </div>
